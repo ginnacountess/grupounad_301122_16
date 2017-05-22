@@ -1,0 +1,110 @@
+/*font-family: 'Shadows Into Light', cursive;
+font-family: 'Architects Daughter', cursive;
+*/
+#contenedor{
+  width: 1000px;/*ancho de la pagina*/
+  height: auto;/*alto de la pagina*/
+  margin: auto;/*margen*/
+  position: relative; /*posicion*/
+}
+/*Etiquetas*/
+/*cuerpo*/
+body{
+  background-image: url(../img/fondo.png);/*fondo de la pagina web*/
+  background-repeat: no-repeat;/*para que no se repita la imagen*/
+  background-size: cover;/*si amplio la pantalla la imagen se amplia*/
+}
+/*fuentes que utilizamos para el titulo de mayor tamaño*/
+h1{font-family: 'Shadows Into Light', cursive;
+color: #0C5572;
+margin-left: 10px;/*margen de la letra del titulo principal*/
+font-size: 60px;/*tamaño de la letra del titulo principal*/
+text-align: center;/*alineado del titulo*/
+}
+/*fuentes que utilizamos para el titulo de menor tamaño*/
+
+h2{font-family: 'Architects Daughter', cursive;
+color: #black;/*color para el sitio web del ovi*/
+margin-left: 10px;
+font-size: 20px;
+text-align: left;
+}
+
+h3{font-family: 'Shadows Into Light', cursive;
+color: #28BAC3;/*color para el sitio web del ovi*/
+text-align: center;
+margin: auto;
+}
+  /*la barra azul*/
+header{
+  width: 1000px;
+  height: 120px;
+  background: rgba(255,255,255,10,70);  /*transparente*/
+}
+/*tamaño que utilizamos para la barra de navegacion y colores*/
+nav{
+  width: 1000px;
+  height: 50px;
+  background: #0C5572;/*color del fondo de la barra de navegacion*/
+  border-radius: 10px;/*bordean los botones*/
+  }
+  ul{
+    margin-left: auto; /*margen los botones*/
+    padding-top: 4px;/*margen del nav*/
+
+  }
+    /*fondo de los botones*/
+  li{
+      /*tamaño de los botones y color de la barra de navegacion*/
+    float: left;
+    list-style-type: none;  /*tomar como un menu*/
+    padding: 10px;
+    background: #676767;
+    margin: 3px;
+    border-radius: 10px;  /*bordean los botones*/
+    box-shadow: 0 0 10px black inset;/*sombra del borde de los botones*/
+  }
+/*color de las section, margenes, tamaño*/
+section{
+  width: 700px;
+  background: #9FA79F;
+  height: 600px;
+  float: left;
+  margin-top:10px;
+  border-radius: 10px;  /
+  }
+/*color de las aside, margenes, tamaño*/
+  aside{
+    width: 280px;
+    background: #EAAA18;
+    height: 600px;
+    float: left;
+    margin-left: 10px;/*margen section*/
+    margin-top:10px;
+    border-radius: 10px;  /
+  }
+  footer {
+    width: 1000px;
+    height: 40px;
+    background: #0A0A0A;
+    float: left;
+    margin-top:10px;
+    border-radius: 10px;
+    margin: auto;
+      }
+      p{
+        font-size: 14px;
+        font-weight: bolder;
+        line-height: normal;
+        padding: 10px;
+        color: #FFFFFF;
+        text-align: justify;
+        }
+  /*Clases para dividir el ancho del menu */
+  .ancho_menu_home{width: 900px;}   /* ancho del menu*/
+  .ancho_menu_paginas{width: 970px;}  /*ancho de las subpaginas*/
+  /*colores de los botones*/
+  .menu:link{color: #F9C78F; text-decoration: none;}  /*Colores de los botones del nav*/
+  .menu:visited{color: #F9C78F; text-decoration: none;}  /**/
+  .menu:hover{color: #F9C78F; text-decoration: none; text-shadow: 0 0 5px black;}  /*iluminacion a los botones del menu*/
+  .menu:active{color: #F9C78F; text-decoration: none;}  /**/
